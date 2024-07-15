@@ -1,7 +1,10 @@
 # Número del 1 al 10
 
 cont = 1
+num_list = []
 
 while cont < 11:
-    print(cont)
+    num_list.append(cont)
     cont += 1
+
+print(num_list)
